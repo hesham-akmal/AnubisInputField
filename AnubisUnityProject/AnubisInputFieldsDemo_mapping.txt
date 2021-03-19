@@ -1,0 +1,9 @@
+# compiler: R8
+# compiler_version: 1.4.77
+# min_api: 19
+com.google.androidgamesdk.ChoreographerCallback$1 -> com.google.androidgamesdk.a:
+com.google.androidgamesdk.SwappyDisplayManager$1 -> com.google.androidgamesdk.b:
+com.google.androidgamesdk.SwappyDisplayManager$a -> com.google.androidgamesdk.SwappyDisplayManager$a:
+    com.google.androidgamesdk.SwappyDisplayManager b -> d
+    java.util.concurrent.locks.Condition d -> c
+    java.util.concurrent.locks.Lock c -> b
